@@ -1,16 +1,18 @@
 # demoTerraform
 
-Pre-requisite: Terrafom binary is required
+*Pre-requisite:* Terraform should be set-up and running
 
-Execution:
+__Execution Steps:__
+
+Please run the below commands, 
 
 1) Terraform init
 2) Terraform plan
 3) Terraform apply
 
-Provide Secret and Access keys of the aws user while running Terraform plan/apply
+For Terraform plan and apply commands, please enter the Secret and Access key of your AWS user
 
-for ex:
+_For an instance,_
 
 demo % terraform apply
 var.AWS_ACCESS_KEY
@@ -18,20 +20,21 @@ var.AWS_ACCESS_KEY
 var.AWS_SECRET_KEY
   Enter a value: <secret key>
   
-On completing execution ELB dns will be provided to acccess webservice, prometheus and grafana
+On completing of execution steps, ELB dns will be avaible to acccess webservice, prometheus and grafana on the screen similar to as below -
+```
+> Outputs:
 
-ex:
-Outputs:
-
-ELB = my-elb-782219157.ap-southeast-2.elb.amazonaws.com
-
-Applications can be accessed using links as:
+> ELB = my-elb-782219157.ap-southeast-2.elb.amazonaws.com
+```
+Please copy the ELB output from your screen and form the applications links as:
 
  Webservice:
- http://my-elb-782219157.ap-southeast-2.elb.amazonaws.com:8080/cat
+ http:// _ELB output_:8080/cat
   
  Prometheus
- http://my-elb-782219157.ap-southeast-2.elb.amazonaws.com:9090
+ http:// _ELB output_:9090
   
- Grafana 
- http://my-elb-782219157.ap-southeast-2.elb.amazonaws.com:3000
+ Grafana   
+ http:// _ELB output_:3000
+
+ Kindly note, it might take a few minutes for application to be availble.
