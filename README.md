@@ -1,14 +1,14 @@
 # demoTerraform
 
-*Pre-requisite:* Terraform should be set-up and running
+__Pre-requisite:__ Terraform should be set-up and running
 
 __Execution Steps:__
 
 Please run the below commands, 
 
-1) Terraform init
-2) Terraform plan
-3) Terraform apply
+1. Terraform init
+2. Terraform plan
+3. Terraform apply
 
 For Terraform plan and apply commands, please enter the Secret and Access key of your AWS user
 
