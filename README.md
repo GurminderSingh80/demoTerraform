@@ -28,13 +28,13 @@ On completing of execution steps, ELB dns will be avaible to acccess webservice,
 ```
 Please copy the ELB output from your screen and form the applications links as:
 
- Webservice:
+ __Webservice:__
  http:// _ELB output_:8080/cat
   
- Prometheus
+ __Prometheus:__
  http:// _ELB output_:9090
   
- Grafana   
+ __Grafana:__
  http:// _ELB output_:3000
 
  Kindly note, it might take a few minutes for application to be availble.
