@@ -13,13 +13,13 @@ Please run the below commands,
 For Terraform plan and apply commands, please enter the Secret and Access key of your AWS user
 
 _For an instance,_
-
+```
 demo % terraform apply
 var.AWS_ACCESS_KEY
   Enter a value: <access key>
 var.AWS_SECRET_KEY
   Enter a value: <secret key>
-  
+``` 
 On completing of execution steps, ELB dns will be avaible to acccess webservice, prometheus and grafana on the screen similar to as below -
 ```
 Outputs:
