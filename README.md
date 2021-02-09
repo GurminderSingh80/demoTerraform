@@ -1,4 +1,3 @@
-# demoTerraform
 
 __Pre-requisite:__ Terraform should be set-up and running
 
