@@ -28,10 +28,10 @@ ELB = my-elb-782219157.ap-southeast-2.elb.amazonaws.com
 Applications can be accessed using links as:
 
  Webservice:
- http://<ELB Output>:8080/cat
+ http://my-elb-782219157.ap-southeast-2.elb.amazonaws.com:8080/cat
   
  Prometheus
- http://<ELB Output>:9090
+ http://my-elb-782219157.ap-southeast-2.elb.amazonaws.com:9090
   
  Grafana 
- http://<ELB Output>:3000
+ http://my-elb-782219157.ap-southeast-2.elb.amazonaws.com:3000
