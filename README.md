@@ -29,12 +29,12 @@ ELB = my-elb-782219157.ap-southeast-2.elb.amazonaws.com
 Please copy the ELB output from your screen and form the applications links as:
 
  __Webservice:__
- http://`_ELB output_`:8080/cat
+ http://`ELB output`:8080/cat
   
  __Prometheus:__
- http://`_ELB output_`:9090
+ http://`ELB output`:9090
   
  __Grafana:__
- http://`_ELB output_`:3000
+ http://`ELB output`:3000
 
  Kindly note, it might take a few minutes for application to be availble.
